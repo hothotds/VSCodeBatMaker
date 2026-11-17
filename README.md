@@ -1,0 +1,2 @@
+# VSCodeBatMaker
+通过bat文件在桌面生成多个vscode项目的快捷方式
