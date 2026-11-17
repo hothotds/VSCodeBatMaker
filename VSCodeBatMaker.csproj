@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>VSCodeBatMaker</AssemblyName>
+
+    <!-- 发布成“单个 exe”，可以直接复制到桌面或任何位置使用 -->
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <DebugType>none</DebugType>
+    <!-- 电脑上装的是更新版本的 .NET 运行时时，也允许运行 -->
+    <RollForward>LatestMajor</RollForward>
+  </PropertyGroup>
+
+</Project>
